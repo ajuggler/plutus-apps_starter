@@ -31,7 +31,7 @@ trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=
 5. Clone (fork) this repository.  Change the directory's name to something appropriate to your project, say "my_project".  Then rename `starter.cabal` to `my_project.cabal`.  Also:
 
 - In line 16 of `cabal.project`, change 'starter.cabal' to 'my_project.cabal'.
-- In lines 2 and 50 of `starter.cabal`, change 'starter' to 'my_project'.
+- In lines 2 and 50 of `my_project.cabal` (renamed from 'starter.cabal'), change 'starter' to 'my_project'.
 
 6. Inside a nix-shell, `cd` to your project's directory and execute `cabal build`.
 
