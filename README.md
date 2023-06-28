@@ -35,3 +35,16 @@ trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=
 
 6. Inside a nix-shell, `cd` to your project's directory and execute `cabal build`.
 
+## Haddock documentation
+
+If you wish to generate the haddock documentation:
+
+1. Inside the `plutus-apps` directory, initiate another `nix-shell`.
+
+2. Execute:
+
+```shell
+build-and-serve-docs
+```
+
+After a while, the haddock documentation should be available at [http://localhost:8002/haddock/](http://localhost:8002/haddock/) .
